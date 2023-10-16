@@ -1,0 +1,41 @@
+table {
+    background-color: lightgray;
+    margin: 100px;
+}
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td {padding: 10px;}
+.img1 {
+    width: 150px;
+    border: 5px dashed red;
+    padding: 30px;
+}
+.img2 {
+    width: 150px;
+    border: 5px dashed red;
+    padding: 30px;
+}
+.img3 {
+    width: 150px;
+    border: 5px dashed red;
+    padding: 30px;
+}
+.para{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 25px;
+    font-style: normal;
+}
+.njit1:hover {
+    color: red;
+}
+.njit2:visited {
+    color: gray;
+}
+.njit3:active {
+    color: orange;
+}
